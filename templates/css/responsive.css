@@ -1,0 +1,295 @@
+@media screen and (max-width: 1115px) {
+  
+  
+  .menu-element-1 {
+	padding-right:10px;
+	padding-left: 10px;
+	font-weight:bold;
+}
+
+.menu-element-2 {
+	padding-left:10px;
+	padding-right:10px;
+	font-weight:bold;
+
+}
+
+/********************
+   Order-Form
+********************/
+
+.overlay-form {
+	width:19%;
+	height: 65%;
+	top: 10%;
+	bottom: 30%;
+	right: 20%;
+	left: 20%;
+}
+
+
+}
+
+
+@media screen and (max-width: 1050px) {
+	
+.menu-element-container {
+	padding-top:1px;
+}
+
+	.logo {
+		width:25%;
+	}
+
+  .menu-element-1 { 
+	font-size:0.9em;
+}
+
+.menu-element-2 {
+	font-size:0.9em;
+
+}
+
+/********************
+   Order-Form
+********************/
+
+.overlay-form {
+	width:22%;
+	height: 65%;
+	top: 10%;
+	bottom: 30%;
+	right: 20%;
+	left: 20%;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+
+.menu-element-container {
+	padding-top:1px;
+}
+
+.logo {
+		width:21%;
+	}
+
+  .menu-element-1 { 
+	font-size:0.85em;
+}
+
+.menu-element-2 {
+	font-size:0.85em;
+
+}
+
+/********************
+   Order-Form
+********************/
+
+.overlay-form {
+	width:27%;
+	height: 65%;
+	top: 10%;
+	bottom: 30%;
+	right: 20%;
+	left: 20%;
+}
+
+ }
+
+ /**************************************************
+     SIDEBAR GOING DOWN ON TABLETS AND PHONES 
+**************************************************/
+
+@media (max-width: 938px) {
+
+	.side-bar {
+		width: 31%;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		margin-top: 2%;
+	}
+
+	.main-section {
+		margin:0 auto;
+		float: none;
+	}
+	
+}
+
+@media (min-width: 992px) {
+.col-md-3 {
+    width: 45%;
+    float:left;
+}
+}
+
+@media screen and (max-width: 895px) {
+
+.menu-element-container {
+	padding-top:0;
+}
+
+.logo {
+		width:18%;
+	}
+
+  .menu-element-1 { 
+	font-size:0.80em;
+}
+
+.menu-element-2 {
+	font-size:0.80em;
+
+}
+
+.line {
+	width:43%;
+}
+
+/********************
+   Order-Form
+********************/
+
+.overlay-form {
+	width:35%;
+	height: 65%;
+	top: 10%;
+	bottom: 30%;
+	right: 20%;
+	left: 20%;
+}
+
+}
+
+@media screen and (max-width: 805px) {
+
+	.side-bar {
+		width: 35%;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		margin-top: 2%;
+	}
+
+.menu-element-container {
+	padding-top:0;
+}
+
+.logo {
+		width:15%;
+	}
+
+  .menu-element-1 { 
+	font-size:0.75em;
+}
+
+.menu-element-2 {
+	font-size:0.75em;
+
+}
+
+.line {
+	width:40%;
+}
+
+/********************
+   Order-Form
+********************/
+
+.overlay-form {
+	width:38%;
+	height: 65%;
+	top: 10%;
+	bottom: 30%;
+	right: 20%;
+	left: 20%;
+}
+
+}
+
+@media (max-width: 865px) {
+
+.logo {
+  display: block;
+  padding: 4% 0 2% 0;
+  width: 40%;
+  margin:0 auto;
+}
+
+.menu-element-container-1 {
+	margin-right: 0;
+	width: 90%;
+}
+
+.menu-element-container-2 {
+	margin-left: 0;
+	width: 90%;
+}
+
+/********************
+   Order-Form
+********************/
+
+.overlay-form {
+	width:45%;
+	height: 68%;
+	top: 10%;
+	bottom: 30%;
+	right: 20%;
+	left: 20%;
+}
+
+}
+
+/********************
+   Order-Form
+********************/
+
+@media (max-width: 540px) {
+
+.main-section {
+	width: 95%;
+}
+
+.side-bar {
+	width: 50%;
+}
+
+.line {
+	width: 35%;
+}
+
+.copyright {
+	font-size: 12px;
+}
+
+.pricing-table-v6 {
+	  width: 100%;
+    margin: 0 auto;
+}
+
+.overlay-form {
+	width:60%;
+	height: 68%;
+	top: 10%;
+	bottom: 10%;
+	right: 20%;
+	left: 20%;
+}
+
+}
+
+@media (max-width: 450px) {
+
+.side-bar {
+	width: 60%;
+}
+
+
+}
+
+
