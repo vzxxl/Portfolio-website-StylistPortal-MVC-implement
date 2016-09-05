@@ -9,6 +9,7 @@
 	<div class="footer-element line line2"></div><span class="copyright">Andriana style 2016 &copy;</span></div></footer>
 
          <script src="js/ajax-mailer.js"></script>
+         <script src='js/lightbox.js'></script>
 </body>
 </html>
 

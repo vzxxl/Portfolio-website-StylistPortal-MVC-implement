@@ -1,6 +1,7 @@
-<?php include('views/layouts/header.php'); ?>
-
-<?php include('views/layouts/title.php'); ?>
+<?php 
+include('views/layouts/header.php');
+include('views/layouts/title.php'); 
+?>
 
   <div class="main-wrapper clearfix">
 

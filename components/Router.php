@@ -27,17 +27,24 @@ class Router {
           $uri = $this->getURI();
           
         
-        //Проверить наличие такого запроса в Routes (Compare it with the list of routes in routes.php)
+        //Проверить наличие такого запроса в routes (Compare it with the list of routes in routes.php)
         foreach($this->routes as $uriPattern => $path) {
             //Сравниваем $uriPattern и $uri (Compare $uriPattern and $uri)
             if (preg_match("~$uriPattern~", $uri)) {
+                
+                //Определить внутренний мршрут из внешнего (external path to internal)
+                $internalRoute = preg_replace("~$uriPattern~", $path, $uri);
+                
                 //Определить, какой контроллер и 
                 //экшн обрабатывают запрос (call for responsible controller and action)
-                $segments = explode('/', $path);
+                $segments = explode('/', $internalRoute);
                 
                 $controllerName = array_shift($segments).'Controller';
                 $controllerName = ucfirst($controllerName);
                 $actionName = 'action'.ucfirst(array_shift($segments));
+                
+                $parameters = $segments;
+                
                 
                 
                 //Подключить файл класса-контроллера (Connecting particular controller)
@@ -51,7 +58,9 @@ class Router {
                 
                 //Создать объект, вызвать метод
                 $controllerObject = new $controllerName;
-                $result = $controllerObject->$actionName();
+                
+                $result = call_user_func_array(array($controllerObject, $actionName), $parameters);
+                
                 if ($result != null) {
                     break;
                 }

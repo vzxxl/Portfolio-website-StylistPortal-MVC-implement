@@ -1,14 +1,29 @@
 <?php
 
+include_once(ROOT . '/models/Blog.php');
+
 class BlogController {
     
     public function actionList() {
-        echo '<br><br>все посты на сегодня<br><br><a href=blog/post>Крутая новость</a>';
+        $postsList = array();
+        $postsList = Blog::getPostsList();
+        
+        echo '<pre>';
+        print_r($postsList);
+        echo '</pre>';
+        //require_once(ROOT . '/views/blog.php');
         return true;
     }
     
-    public function actionPost() {
-        echo '<br><br>Новость дня!<br><a href=blog>Все записи</a>';
+    public function actionPost($id) {
+        
+        if ($id) {
+            $postById = Blog::getPostById($id);
+        }
+        echo '<pre>';
+        print_r($postById);
+        echo '</pre>';
+        
         return true;
     }
 }
