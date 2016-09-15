@@ -24,7 +24,7 @@
 
     </div>
 
-    <!--LOGO--> <img src="img/andriana-style.png" alt="" class="logo menu-element-container">
+    <!--LOGO--> <img src="templates/img/andriana-style.png" alt="" class="logo menu-element-container">
 
     <div class="menu-element-container menu-element-container-2">
 

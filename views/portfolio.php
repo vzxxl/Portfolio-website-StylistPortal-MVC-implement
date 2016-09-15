@@ -9,84 +9,84 @@ include('views/layouts/title.php');
         <ul class="main-section-list">
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio1-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio1-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a>
                     <a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio1.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio1.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio2-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio2-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio2.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio2.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio3-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio3-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio3.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio3.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio4-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio4-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio4.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio4.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio5-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio5-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio5.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio5.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio6-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio6-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio6.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio6.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio7-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio7-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio7.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio7.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio8-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio8-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio8.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio8.jpg" alt="">
                 </div>
             </li>
             <li class="main-section-item">
                 <div class="portfolio-image-container">
-                    <a class="portfolio-image-anchor" href="img/portfolio9-big.jpg" data-lightbox="portfolio-img">
-                        <img class="portfolio-image-exlarge" src="img/exlage.png" alt="">
+                    <a class="portfolio-image-anchor" href="templates/img/portfolio9-big.jpg" data-lightbox="portfolio-img">
+                        <img class="portfolio-image-exlarge" src="templates/img/exlage.png" alt="">
                     </a><a class="portfolio-image-button1" href="stilisty.php">СТИЛИСТЫ</a>
                     <a class="portfolio-image-button2" href="ceni.php">ЦЕНЫ</a>
-                    <img class="portfolio-image-main" src="img/portfolio9.jpg" alt="">
+                    <img class="portfolio-image-main" src="templates/img/portfolio9.jpg" alt="">
                 </div>
             </li>
         </ul>
@@ -102,19 +102,19 @@ include('views/layouts/title.php');
         <div class="feedback">
             <div class="longline clearfix">
                 <div class="feedback-slide slide1">
-                    <img src="img/feedback1.jpg" alt="" class="feedback-img">
+                    <img src="templates/img/feedback1.jpg" alt="" class="feedback-img">
                     <h3>Мария Карасева</h3>
                     <p class="feedback-text">К свадьбе готовились очень серьезно и к поиску стилиста тоже подхоили оснвательно. В Андриане нам очень помогли, сделали все грамотно. Один день был выделен для репетиция. На самой свадьбе все сделали как и репетировали. Я очень довольна!</p>
                 </div>
 
                 <div class="feedback-slide slide2">
-                    <img src="img/feedback1.jpg" alt="" class="feedback-img">
+                    <img src="templates/img/feedback1.jpg" alt="" class="feedback-img">
                     <h3>Мария Карасева</h3>
                     <p class="feedback-text">К свадьбе готовились очень серьезно и к поиску стилиста тоже подхоили оснвательно. В Андриане нам очень помогли, сделали все грамотно. Один день был выделен для репетиция. На самой свадьбе все сделали как и репетировали. Я очень довольна!</p>
                 </div>
 
                 <div class="feedback-slide slide3">
-                    <img src="img/feedback1.jpg" alt="" class="feedback-img">
+                    <img src="templates/img/feedback1.jpg" alt="" class="feedback-img">
                     <h3>Мария Карасева</h3>
                     <p class="feedback-text">К свадьбе готовились очень серьезно и к поиску стилиста тоже подхоили оснвательно. В Андриане нам очень помогли, сделали все грамотно. Один день был выделен для репетиция. На самой свадьбе все сделали как и репетировали. Я очень довольна!</p>
                 </div>

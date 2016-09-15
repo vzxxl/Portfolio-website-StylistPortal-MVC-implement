@@ -5,13 +5,15 @@ include_once(ROOT . '/models/Blog.php');
 class BlogController {
     
     public function actionList() {
+        
         $postsList = array();
         $postsList = Blog::getPostsList();
+       
         
-        echo '<pre>';
-        print_r($postsList);
-        echo '</pre>';
-        //require_once(ROOT . '/views/blog.php');
+       //Connecting view
+        require_once(ROOT . '/views/blog.php');
+        
+
         return true;
     }
     
@@ -20,9 +22,9 @@ class BlogController {
         if ($id) {
             $postById = Blog::getPostById($id);
         }
-        echo '<pre>';
-        print_r($postById);
-        echo '</pre>';
+        
+        //Connecting view
+        require_once(ROOT . '/views/post.php');
         
         return true;
     }

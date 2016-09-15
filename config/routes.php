@@ -7,7 +7,7 @@ return array (
   'stilisty'           => 'stylists/index', //actionIndex in StylistsController
   'pricheski'          => 'haircuts/index', //actionIndex in HaircutsController 
   'obuchenie'          => 'education/index', //actionIndex in EducationController  
-  'blog/post/([0-9]+)' => 'blog/post/$1', //actionPost in BlogController   
+  'blog/([0-9]+)'      => 'blog/post/$1', //actionPost in BlogController   
   'blog'               => 'blog/list', //actionList in BlogController
   'main'               => 'index/main', //actionMain in IndexController
   ''                   => 'index/main', //actionMain in IndexController  

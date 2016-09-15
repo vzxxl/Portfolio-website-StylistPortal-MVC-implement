@@ -18,6 +18,7 @@
         <script src="js/ajax-mailer.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/maskedinput.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
  
 </head>
